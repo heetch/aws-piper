@@ -3,13 +3,11 @@
 """
 Simplify AWS DataPipeline deployment and management
 """
-import sys
 
-import pip
 from setuptools import find_packages
 from setuptools import setup
 
-with open('README.rst') as readme_file:
+with open('README.md') as readme_file:
     readme = readme_file.read()
 
 dependencies = ['click', 'boto3', 'pyyaml', 'awscli']
