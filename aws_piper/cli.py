@@ -28,8 +28,8 @@ def deploy(config_file):
     '--start-timestamp',
     help='The date and time to resume the pipeline. By default, the pipeline resumes from the last completed execution.'
 )
-def run(config_file, start_timestamp):
-    click.echo(aws_piper.run(config_file, start_timestamp))
+def start(config_file, start_timestamp):
+    click.echo(aws_piper.start(config_file, start_timestamp))
 
 
 @click.command()
@@ -57,7 +57,7 @@ def delete(config_file):
 
 
 piper.add_command(deploy)
-piper.add_command(run)
+piper.add_command(start)
 piper.add_command(stop)
 piper.add_command(delete)
 

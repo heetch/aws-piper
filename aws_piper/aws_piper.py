@@ -33,7 +33,7 @@ def deploy(config_file='config.yaml'):
     return client.put_pipeline_definition(pipeline_id, pipeline_definition, parameter_objects, parameter_values)
 
 
-def run(config_file, start_timestamp):
+def start(config_file, start_timestamp):
     path_to_config_file = os.path.join(os.getcwd(), config_file)
     cfg = read_cfg(path_to_config_file)
 
