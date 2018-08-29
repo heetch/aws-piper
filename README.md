@@ -115,7 +115,7 @@ piper [command] --help
 
 ### Contributions
 
-At Heetch, we are heavy users of Data Pipeline as a data engineering tool.
+At [Heetch](https://www.heetch.com/), we are heavy users of Data Pipeline as a data engineering tool.
 Although similar libraries exists to simplify the management of other AWS services, we couldn't find one for Data Pipeline.
 This project initiated from the need to simplify the access to the service internally and allow a more streamlined and integrated management of our Data Pipeline definitions.
 
