@@ -14,7 +14,7 @@ dependencies = ['click', 'boto3', 'pyyaml', 'awscli']
 
 setup(
     name='aws-piper',
-    version='0.1.0',
+    version='0.1.1',
     description='Simplify AWS DataPipeline deployment and management',
     long_description=readme,
     author='Patrick Bamba',
