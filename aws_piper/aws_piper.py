@@ -1,3 +1,5 @@
+from __future__ import absolute_import
+from __future__ import print_function
 import json
 import os
 from datetime import datetime
@@ -5,7 +7,7 @@ from datetime import datetime
 import yaml
 from awscli.customizations.datapipeline import translator
 
-from data_pipeline import DataPipelineClient
+from .data_pipeline import DataPipelineClient
 
 
 def deploy(config_file='config.yaml'):

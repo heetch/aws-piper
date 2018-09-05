@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 from boto3.session import Session
 
 
