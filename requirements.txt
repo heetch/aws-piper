@@ -2,4 +2,4 @@ click
 boto3
 pyyaml
 awscli
-git+ssh://git@github.com/heetch/super-mario-python.git@v1.0.4
+git+ssh://git@github.com/heetch/super-mario-python.git@v1.0.5
